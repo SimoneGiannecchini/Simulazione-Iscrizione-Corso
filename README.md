@@ -11,20 +11,56 @@ Modella l’interazione tra **partecipanti**, **corsi di formazione** e **aziend
 
 ---
 
-## ✨ Funzionalità
+## 👤 Partecipante
 
-- Gestione dei partecipanti ai corsi
-- Organizzazione dei corsi di formazione professionale
-- Offerte di lavoro da parte di aziende partner
-- Connessione tra migranti formati e imprese del territorio
+Un partecipante rappresenta un migrante che vuole formarsi.
+
+### Funzioni:
+- **Registrazione dati**: nome, cognome, Paese, studi, lingue, settore d’interesse
+- **Iscrizione a un corso** → con il metodo `iscrivitiCorso()`
+
+---
+
+## 📚 Corso
+
+Un corso rappresenta un percorso formativo offerto dalla scuola.
+
+### Funzioni:
+- **Informazioni base**: titolo, descrizione, settore, durata
+- **Gestione degli iscritti**
+- **Aggiunta partecipante** → con il metodo `aggiungiPartecipante()`
 
 ---
 
-# 📦 Come esportare un progetto da CodePen e caricarlo su GitHub
+## 🏢 Azienda
 
-Questa guida ti spiega in modo semplice come salvare un progetto creato su CodePen in una cartella del tuo computer e poi pubblicarlo su GitHub.
+Un’azienda partner che offre tirocini o impieghi.
+
+### Funzioni:
+- **Dettagli azienda**: nome, settore, descrizione
+- **Elenco posizioni aperte**
+- **Offerta di lavoro a un partecipante** → con `offriPosizione()`
 
 ---
+
+## 🔗 Collegamento tra le parti
+
+- Un **partecipante** si iscrive a un **corso**
+- Un **corso** gestisce gli iscritti
+- Un’**azienda** può proporre un lavoro a un partecipante iscritto
+
+---
+
+## 🎯 Obiettivo del progetto
+
+Creare un sistema semplice ma chiaro per simulare:
+- L’inclusione formativa
+- Il collegamento tra migranti e aziende
+- La logica base di gestione utenti e offerte
+
+---
+
+✅ Progetto utile per testare concetti base di TypeScript, OOP e gestione entità collegate.
 
 ## ✅ 1. Esporta il progetto da CodePen
 

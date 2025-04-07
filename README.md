@@ -60,7 +60,6 @@ Creare un sistema semplice ma chiaro per simulare:
 
 ---
 
-✅ Progetto utile per testare concetti base di TypeScript, OOP e gestione entità collegate.
 
 ## ✅ 1. Esporta il progetto da CodePen
 
